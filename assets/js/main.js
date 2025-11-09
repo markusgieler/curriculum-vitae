@@ -10,6 +10,7 @@ async function loadData() {
 
     document.getElementById("pagTitle").textContent = data.pagTitle;
     document.getElementById("namTitle").textContent = data.namTitle;
+    document.getElementById("namSubtitle").textContent = data.namSubtitle;
 
     /*Sobre*/
     document.getElementById("sobTitle").textContent = data.sobTitle;
